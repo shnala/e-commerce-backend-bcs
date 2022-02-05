@@ -9,12 +9,14 @@ Product.belongsTo(Category);
 // Categories have many Products
 Category.hasMany(Product);
 // Products belongToMany Tags (through ProductTag)
+
+//TODO: The relations below are causing an error.
 Product.belongsToMany(Tag, {
-  foreignKey: 'product_tag',
+  through: 'product_tag',
 });
 // Tags belongToMany Products (through ProductTag)
-Tag.belongToMany(Product, {
-  foreignKey: 'product_tag',
+Tag.belongsToMany(Product, {
+  through: 'product_tag',
 });
 
 module.exports = {
