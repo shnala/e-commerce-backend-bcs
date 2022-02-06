@@ -10,7 +10,6 @@ Product.belongsTo(Category);
 Category.hasMany(Product);
 // Products belongToMany Tags (through ProductTag)
 
-//TODO: The relations below are causing an error.
 Product.belongsToMany(Tag, {
   through: 'product_tag',
 });
