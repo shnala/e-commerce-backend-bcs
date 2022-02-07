@@ -16,6 +16,10 @@ E-Commerce-Backend emulates the behind-the-scenes action of everyday retailers a
 
 ## Installation
 
+ Access the app at this URL:
+ 
+ [https://e-commerce-backend-bcs.herokuapp.com/]
+
  The app doesn't require any installation to use per se since it is hosted live on Heroku. However, in order for one to perform CRUD functions with the app in the absence of an actual front-end UI, some sort of program that can do so may be necessary, e.g. Insomnia.
 
 ## Usage
