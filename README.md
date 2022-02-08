@@ -17,7 +17,7 @@ E-Commerce-Backend emulates the behind-the-scenes action of everyday retailers a
 ## Installation
 
  Access the app at this URL:
- 
+
  [https://e-commerce-backend-bcs.herokuapp.com/]
 
  The app doesn't require any installation to use per se since it is hosted live on Heroku. However, in order for one to perform CRUD functions with the app in the absence of an actual front-end UI, some sort of program that can do so may be necessary, e.g. Insomnia.
@@ -36,7 +36,7 @@ To make any changes to Products, write:
 ```md
 baseurl/api/products
 ```
-To make a change to a specific Product, write as follows, and substite :id with the integer id that identifies that product (perform a GET request on products first to see the integer id of all products):
+To make a change to a specific Product, write as follows, and substitute :id with the integer id that identifies that product (perform a GET request on products first to see the integer id of all products):
 ```md
 baseurl/api/products/:id
 ```
@@ -44,7 +44,7 @@ To make any changes to Categories, write:
 ```md
 baseurl/api/categories
 ```
-To make a change to a specific Category, write as follows, and substite :id with the integer id that identifies that Category (perform a GET request on categories first to see the integer id of all categories):
+To make a change to a specific Category, write as follows, and substitute :id with the integer id that identifies that Category (perform a GET request on categories first to see the integer id of all categories):
 ```md
 baseurl/api/categories/:id
 ```
@@ -52,7 +52,7 @@ To make any changes to tags, write:
 ```md
 baseurl/api/tags
 ```
-To make a change to a specific Tag, write as follows, and substite :id with the integer id that identifies that Tag (perform a GET request on tags first to see the integer id of all tags):
+To make a change to a specific Tag, write as follows, and substitute :id with the integer id that identifies that Tag (perform a GET request on tags first to see the integer id of all tags):
 ```md
 baseurl/api/tags/:id
 ```
